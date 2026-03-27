@@ -34,12 +34,13 @@ tratamiento de inmunoterapia.
 Palabras clave: Caos; Conjuntos Compactos Invariantes; Condiciones de Estabilidad; Simulaciones Numéricas; Solución de EDOs.
 
 ## Actividades a realizar
-1. Diseñar un diagrama biológico sobre la dinámica del sistema y la interacción entre sus variables con las figuras de https://bioart.niaid.nih.gov/ o https://www.biorender.com/.
-2. 
-3.
-4.
-...
-
+1. Diseñar un diagrama biológico sobre la dinámica del sistema y la interacción entre sus variables con las figuras de https://www.biorender.com/.
+2. Calcular los puntos de equilibrio del sistema mediante la función solve de MATLAB con variables simbólicas, igualando las tres EDOs a cero.
+3. Calcular la matriz Jacobiana del sistema, evaluarla en cada punto de equilibrio y analizar la estabilidad local mediante el cálculo de valores propios.
+4. Comparar los métodos numéricos de diferencias finitas de Euler, Heun y Runge-Kutta para resolver el sistema, ilustrando las soluciones en el tiempo y las trayectorias en el espacio de fase 3D para los cinco conjuntos compactos invariantes: atractor caótico (a12 = 1), órbita periódica (a12 = 0.9), ciclo límite interno (a12 = 0.8), ciclo límite externo (a12 = 0.75) y punto de equilibrio (a12 = 0.5).
+5. Graficar la comparación entre soluciones (divergencia Euler vs Heun vs RK4) y el error entre métodos para cada uno de los cinco casos dinámicos.
+6. Verificar las condiciones de estabilidad asintótica local del equilibrio libre de células patológicas y simular con el método de Runge-Kutta la aplicación del tratamiento de inmunoterapia rho_i > (r1 - a12/b2)*d3/a13 para los cinco conjuntos compactos invariantes.
+   
 ## Lista de archivos incluidos en el repositorio
 1. Cuaderno computacional de MATLAB [.mlx].
 2. Imágenes de las simulaciones [.pdf].
